@@ -1,1 +1,236 @@
-你是否知道Oracle的Java SE 21 Developer Professional认证考试，在此目录下生成分阶段的练习，要求输出完整项目结构、每阶段目标、逐步练习指引、提交代码方式和最终预期能力。用 Markdown 编写一套傻瓜式学习文档。项目完成后应达到从java基础到可以轻松通过这个考试。
+整理后的《The Complete Java SE 17 Programming Course》英文目录如下，按章节和小节划分
+
+---
+
+### **1. Introduction to Java**
+
+* Introduction to Java (20m)
+* Object Oriented Principles (17m)
+* Inheritance (21m)
+* Use Access Modifiers (15m)
+* Practices for Lesson 1: Overview (17m)
+
+---
+
+### **2. Primitive Types, Operators, and Flow Control Statements**
+
+* Primitive Types, Operators, and Flow Control Statements (12m)
+* Assignment and Arithmetic Operators (13m)
+* Binary Number Representation (11m)
+* Flow Control Using switch Construct (13m)
+* Practices for Lesson 2 (23m)
+* Practice 2-2: Use the if/else and switch Constructs and the Ternary Operator (13m ×2)
+
+---
+
+### **3. Text, Date, Time, and Numeric Objects**
+
+* Text, Date, Time, and Numeric Objects (23m)
+* Text Blocks (9m)
+* Wrapper Classes for Primitives (9m)
+* Local Date and Time (13m)
+* Represent Languages and Countries (7m)
+* Format and Parse Date and Time Values (13m)
+* Practice 3-1: Explore String and StringBuilder Objects Part 1 (16m)
+* Practice 3-1 Part 2 (17m)
+* Practice 3-2: Use BigDecimal Class and Format Numeric Values (28m)
+* Practice 3-3: Use and Format Date and Time Values (15m)
+* Practice 3-4: Apply Localization and Format Messages (12m)
+
+---
+
+### **4. Classes and Objects**
+
+* Classes and Objects (33m)
+* Local Variable Type Inference (25m)
+* IntelliJ IDE: Introduction (4m)
+* Practice 4-1: Create the Product Management Application (16m)
+* Practice 4-2: Enhance the Product Class (12m)
+* Practice 4-3: Document Classes (7m)
+
+---
+
+### **5. Improved Class Design**
+
+* Improved Class Design (20m)
+* Access Modifiers Summary (15m)
+* Enumerations (23m)
+* Practice 5-1 and 5-2 (23m)
+* Practice 5-3: Make Product Objects Immutable (7m)
+
+---
+
+### **6. Implement Inheritance and Use Records**
+
+* Implement Inheritance and Use Records (26m)
+* Verify Object Type Before Casting the Reference (26m)
+* Override Methods and Use Polymorphism (19m)
+* Sealed Classes, Inheritance Under Control (27m)
+* Factory Method Pattern (17m)
+* Practice 6-1 and 6-2 (25m)
+* Practice 6-2 Continued: Override Methods and Use Polymorphism (18m)
+* Practice 6-3: Create Factory Methods (10m)
+* Practice 6-4 and 6-5 (14m)
+* Practice 6-6: Explore Java Records (9m)
+* Practice 6-7: Implement Sealed Classes with Records (10m)
+
+---
+
+### **7. Interfaces and Generics**
+
+* Interfaces and Generics (20m)
+* Default, Private, and Static Methods in Interfaces (20m)
+* Generics (27m)
+* Practice 7-1 and 7-2 (31m)
+* Practice 7-3: Test the Product Review Functionality (4m)
+
+---
+
+### **8. Arrays and Loops**
+
+* Arrays and Loops (24m)
+* The Arrays Class (35m)
+* Summary (1m)
+* Practice 8-1: Allow Multiple Reviews for a Product (12m)
+
+---
+
+### **9. Collections**
+
+* Collections (16m)
+* Create Set Object (17m)
+* Create HashMap Object (19m)
+* Access Collections Concurrently (15m)
+* Practice 9-1: Organize Products and Reviews into a HashMap (16m)
+* Practice 9-2: Implement Review Sort and Product Search Features (14m)
+
+---
+
+### **10. Nested Classes and Lambda Expressions**
+
+* Nested Classes and Lambda Expressions (30m)
+* Define Lambda Expression Parameters and Body (22m)
+* Practice 10-1: Refactor ProductManager to Use a Nested Class (21m)
+* Practice 10-2: Produce Customized Product Reports (11m)
+
+---
+
+### **11. Java Streams API**
+
+* Java Streams API (24m)
+* Bi-argument Variants of Functional Interfaces (34m)
+* Aggregate Stream Data using reduce Operation (39m)
+* Restrictions on Parallel Stream Processing (11m)
+* Spliterator (20m)
+* Practice 11-1: Modify ProductManager to Use Streams (14m)
+* Practice 11-2: Add Discount Per Rating Calculation (7m)
+
+---
+
+### **12. Exception Handling, Logging, and Debugging**
+
+* Exception Handling, Logging, and Debugging (38m)
+* Handling Exceptions (22m)
+* Normal Program Flow with No Exceptions (14m)
+* Practice 12-1: Use Exception Handling to Fix Logical Errors (22m)
+* Practice 12-2: Add Text Parsing Operations (36m)
+
+---
+
+### **13. Java IO API**
+
+* Java IO API (36m)
+* Serializable Object Graph (21m)
+* Working with Filesystems (25m)
+* Delete Paths (13m)
+* Practice 13-1: Print Product Report to a File (13m)
+* Practice 13-2: Bulk-Load Data from Files (20m)
+* Practice 13-3: Implement Memory Swap Mechanism (13m)
+
+---
+
+### **14. Java Concurrency and Multithreading**
+
+* Java Concurrency and Multithreading (29m)
+* Manage Executor Service Life Cycle (11m)
+* Writing Thread-Safe Code (20m)
+* Summary (2m)
+* Practice 14-1 and 14-2 (36m)
+* Practice 14-3: Simulate Concurrent Callers (17m)
+
+---
+
+### **15. Modules and Deployment**
+
+* Modules and Deployment (21m)
+* JPMS Module Categories (17m)
+* Open Module Content (16m)
+* Multi-Release Module Archives (20m)
+* Practice 15-1: Convert ProductManagement Application into a Module (13m)
+* Practice 15-2: Separate Application into Several Modules (28m)
+
+---
+
+### **16. Annotations**
+
+* Annotations (13m)
+* Annotations that Validate Design (19m)
+
+---
+
+### **17. Java Database Connectivity**
+
+* Java Database Connectivity (16m)
+* Create and Execute Callable SQL Statements (18m)
+
+---
+
+### **18. Java Security**
+
+* Java Security (18m)
+* Execute Privileged Code (14m)
+* Erroneous Value Guards (15m)
+
+---
+
+### **19. Advanced Generics**
+
+* Advanced Generics (21m)
+* Upper Bound Wildcard (13m)
+
+---
+
+### **20. Oracle Cloud Deployment**
+
+* Oracle Cloud Deployment (16m)
+* Example of the Microservices Architecture for an Online Mobile Application (14m)
+* Summary (2m)
+* Practice E-1: Present Application Logic as a Service Using Helidon SE (14m + 4m)
+
+---
+
+### **21. Miscellaneous Java Topics**
+
+* Miscellaneous Java Topics (14m)
+* Bitwise Logical Operators (10m)
+* Character Classes (16m)
+* Using the replaceAll Method (13m)
+* Stream Examples (20m)
+* Java IO, File Watch Service (21m)
+* Factory Design Pattern code demo (3m)
+* Singleton Pattern code demo (6m)
+* Bitwise Logical Operators code demo (5m)
+* Regular Expressions code demo (20m)
+* Threads deadlock, livelock, and starvation code demos (10m)
+* Streams code demos (18m)
+* Java IO, File Watch Service code demos (12m)
+
+---
+
+### **22. Java SE 17: New Features**
+
+* Java SE 17 New Features
+
+---
+
+按照这个目录生成所有学习章节和傻瓜式指引，指导我学习，按指引肯定可以学会的
